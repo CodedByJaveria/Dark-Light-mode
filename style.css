@@ -1,0 +1,33 @@
+/* Default Light Mode */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: #ffffff;
+  color: #121212;
+}
